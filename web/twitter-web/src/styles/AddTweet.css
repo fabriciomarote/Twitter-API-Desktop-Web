@@ -1,0 +1,32 @@
+#text-tweet {
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+.add-tweet-content {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.add-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-control-inline {
+    width: 60%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(105, 158, 255);
+    padding: 5px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 0.9em;
+  }

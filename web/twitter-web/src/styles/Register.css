@@ -1,0 +1,67 @@
+
+
+.register-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 20px 20px 20px 20px;
+}
+
+.register-box-content {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.register-form-container {
+  padding: 10px 10px 10px 10px;
+}
+
+.register-form-container input {
+  margin-left: 0px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.register-text-container-1,
+.register-text-container-1 h4 {
+  font-size: 25px;
+  font-weight: 590;
+  text-align: center;
+}
+
+.register-button {
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.register-text-container-1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.register-text-container-2 {
+  margin-top: 5px;
+}
+
+.register-text-container-2 h6 {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 0.7em;
+}

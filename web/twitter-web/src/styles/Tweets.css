@@ -1,0 +1,119 @@
+.nameTweet {
+  padding-left: 10px;
+}
+
+.textTweet {
+  text-decoration: none;
+}
+
+.nameTweet {
+  color: black;
+  font-weight: bold;
+}
+
+.image-tweet {
+  max-width: 30%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+.image-tweet-content {
+  padding-top: 15px;
+}
+
+.image-author-tweet {
+  border-style: outset;
+  border-radius: 50px;
+  width: max-content;
+}
+
+.link-tweet {
+  text-decoration: none;
+  color: "rgb(98, 98, 98)";
+}
+
+.images-tweet-container {
+  padding: 10px;
+  
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.mid-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweetContent {
+  padding: 20px;
+  border-style: outset;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.tweet-data-content {
+  display: flex;
+  padding-left: 10px;
+}
+
+.name-tweet-content {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.nameTweet-container {
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.date-text {
+  width: 40%;
+  font-size: 12px;
+}
+
+.button-icon {
+  background-color: white;
+  border: none;
+}
+
+.like-btn {
+  padding-top: 1px;
+}
+
+.icons-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .icon-comments {
+    margin-right: 170px;
+    border-color: white;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .icon-comments {
+    margin-right: 120px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .icon-comments {
+    margin-right: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .icon-comments {
+    margin-right: 70px;
+  }
+}

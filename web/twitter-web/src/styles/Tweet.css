@@ -1,0 +1,225 @@
+.tweet-container {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.sides-container {
+  padding: 10px;
+}
+
+.centro {
+  margin-top: 10px;
+}
+
+.iconsDelete {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.delete-btn {
+  border: none;
+}
+
+.tweet-data {
+  display: grid;
+  padding: 20px;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.data-author {
+  display: flex;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.name-id-content {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 100%;
+  font-weight: normal;
+}
+
+.textTweet {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.image-author {
+  border-style: outset;
+  border-radius: 50px;
+  border-color: darkgray;
+}
+
+.images-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-tweet {
+  margin: 2px;
+  padding: 0px;
+}
+
+.images-tweet-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.date-text {
+  padding-left: 10px;
+}
+
+.date-Tweet {
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.buttons-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.likes-data {
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.user-name-like {
+  color: rgb(41, 40, 40);
+  padding-top: 5px;
+}
+
+.textTweet {
+  text-align: left;
+}
+
+.likes-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.comments-content {
+  border-style: groove;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tweet-box {
+  padding: 10px;
+}
+
+.button-comment {
+  padding: 5px;
+}
+
+.button-comments {
+  padding: 5px;
+}
+
+.data-comment {
+  display: flex;
+  padding-left: 20px;
+}
+
+.authorName {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.tex-comment-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.likes-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.comment-btn,
+.comments-comment-btn {
+  padding-top: 1px;
+}
+
+.imagen-userName {
+  background-color: whitesmoke;
+  border-color: rgb(0, 233, 233)
+}
+
+.comments-like, .comments-comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-buttons {
+  margin-left: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+
+.h6-likes, .h6-comments {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+@media (min-width: 1200px) {
+  .icon-coments {
+    margin-right: 250px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .icon-coments {
+    margin-right: 150px;
+    border: none;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .icon-coments {
+    margin-right: 125px;
+    border: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .likes-container {
+    margin-top: 40px;
+  }
+
+  .icon-coments {
+    margin-right: 70px;
+    border: none;
+  }
+}

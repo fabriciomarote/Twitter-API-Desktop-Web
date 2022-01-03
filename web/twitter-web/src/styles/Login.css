@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.login-box-content {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.login-text-container-1 {
+  justify-content: center;
+  align-items: center;
+  padding-left: 45px;
+  margin-top: 20px;
+}
+
+.login-text-container-1 h1 {
+  width: 100%;
+  font-size: 40px;
+}
+
+.login-form-container {
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.login-form-container input {
+  margin-left: 0px;
+  width: 50%;
+}
+
+.login-form-group {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-text-container-2,
+.login-button-content,
+.button-link-content {
+  margin-top: 10px;
+}
+
+.login-button-content {
+  padding-bottom: 5px;
+}
+
+.login-text-container-2 h6 {
+  width: 100%;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.login-btn-button {
+  width: 50%;
+  height: 34px;
+  margin-top: 5px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 11px;
+  }
+
+  .login-form-group {
+    width: 260px;
+
+  }
+}

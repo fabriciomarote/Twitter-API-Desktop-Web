@@ -1,0 +1,48 @@
+.nav-logo-twitter {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.search-content {
+  margin-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.button-content {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+#btn-logout {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.form-control {
+  border-radius: 12px;
+  border-color: rgb(105, 158, 255);
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+@media (max-width: 767px) {
+  .button-content {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.btn-btn {
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: rgb(79, 149, 255);
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+}
+
+.side-left-button-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .side-left-button-content {
+    margin-top: -40px;
+  }
+
+  .side-left-container {
+    margin-top: 5px;
+  }
+}

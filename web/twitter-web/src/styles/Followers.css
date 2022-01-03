@@ -1,0 +1,32 @@
+.seguidores {
+    text-align: center; 
+ }
+
+ .seguidores-text {
+    width: 80%;
+    color:white;
+    background-color: rgb(56, 52, 52);
+    border-radius: 10px;
+    border: 1px solid black;
+    align-items: center;
+ }
+
+ .followers, .seguidores-text{
+    text-align: center;
+ }
+
+ .followers{
+    margin-left: 55px;
+ }
+ 
+
+ .user-follower {
+    font-size: 120%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+    text-decoration: none;
+ }
+ .imagen-userName{
+     border-radius: 50px;
+     border-style: outset;
+ }

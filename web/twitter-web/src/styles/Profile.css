@@ -1,0 +1,137 @@
+.profile-container {
+  padding: 5px;
+}
+
+.centro {
+  padding: 10px;
+  border-style: groove;
+  border-radius: 15px;
+  border-color: whitesmoke;
+}
+
+.user-data-content,
+.data-content {
+  border-radius: 10px;
+}
+
+.user-data-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 20px;
+}
+
+.userName {
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.user-img {
+  border-radius: 50%;
+  border-style: outset;
+  background-color: white;
+}
+
+.userName {
+  margin-left: 0px;
+  font-size: 170%;
+}
+
+.button-edit-content {
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.cant-followers-content {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.cantSeguidores {
+  margin-left: 2%;
+  margin-top: 5px;
+  font-size: 100%;
+}
+
+.button-follow-content {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#iconsFollow {
+  padding-top: 5px;
+}
+
+.user-data {
+  align-items: center;
+  border: darkslategray;
+  display: grid;
+  justify-content: center;
+}
+
+.data-content {
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.followers-content {
+  border-style: hidden;
+  border-color: black;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.followers-text {
+  text-align: center;
+  text-transform:uppercase;
+  margin-bottom: 20px;
+}
+
+.seguidores {
+  text-transform: capitalize;
+}
+
+.tweets-content {
+  margin-top: 5px;
+}
+
+.link-tweet {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.link-tweet:hover,
+.user-img:hover {
+  color: rgb(42, 42, 42);
+}
+
+.btn-secondary {
+  border-radius: 10px;
+  width: 30%;
+  border-style: solid;
+  border-color: lightseagreen;
+}
+
+.tweet-box {
+  margin-top: 10px;
+  border: whitesmoke;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .data-content {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    margin-top: 5px;
+  }
+
+  .button-edit-content,
+  .button-follow-content {
+    margin-top: 15px;
+    padding-left: 30px;
+  }
+}
